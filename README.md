@@ -54,3 +54,61 @@ git --version
     ```sh
     rm -rf .git
     ```
+
+
+## Git Commands:-
+1. git init
+1. git status
+1. git remote -v
+1. git diff  
+
+    git diff --staged
+
+    git diff < file-name >
+
+    git diff < commit-1 > < commit-2 >
+
+    git diff < branch-1 > < branch-2 >
+
+1. git log
+
+    git log --oneline
+    
+    git log --oneline --graph --all
+
+1. git add .
+
+    git add < file-name >
+
+1. git commit -m < message >
+1. git commit -a -m < message >
+1. git commit --amend -m < new-message >
+1. git branch 
+    
+    git branch -v
+
+1. git branch < branch-name >
+1. git branch -M < branch-name >
+1. git branch -d < branch-name>
+    
+    git branch -D < branch-name>
+
+1. git checkout < branch-name >
+    
+    git switch < branch-name >
+
+1. git checkout -b < branch-name>
+1. git remote add origin < repository-url >
+1. git push
+    
+    git push -u origin < branch-name >
+1. git clone < repository-url >
+1. git fetch 
+1. git pull
+1. git merge < branch-name >
+1. git rm --cached < file-name >
+1. git reset
+
+    git reset HEAD~1
+
+    git reset HEAD
