@@ -12,3 +12,16 @@
 
 - Git is free, open-source, fast, efficient, and scalable.
 
+
+## Why Git:-
+- Track changes in source code.
+
+- Manage multiple versions of a project.
+
+- Collaborate with multiple developers.
+
+- Roll back to a previous version whenever needed.
+
+- Create separate branches for new features.
+
+- Merge completed work back into the main branch.
