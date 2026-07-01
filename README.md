@@ -41,3 +41,16 @@ git config --global user.name
 git config --global user.email
 git config --list
 ```
+
+
+### Check git version:-
+```sh
+git --version
+```
+
+### Remove Git Repository:-
+1. using manually you can ```delete .git folder```
+1. using linux command:-
+    ```sh
+    rm -rf .git
+    ```
