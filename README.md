@@ -25,3 +25,19 @@
 - Create separate branches for new features.
 
 - Merge completed work back into the main branch.
+
+
+## Git Configuration:-
+Configure our Git identity before making commits.
+
+```sh
+git config --global user.name <user name>
+git config --global user.email <email id>
+```
+
+### Verify Configuration:-
+```sh
+git config --global user.name
+git config --global user.email
+git config --list
+```
